@@ -280,7 +280,7 @@ while ($hasil = mysqli_fetch_array($q)) {
 
           </div>
           <div class="modal-footer">
-            <input type="hidden" name="angkatane" value="<?= $angkatan['nama_angkatan']; ?>">
+            <input type="hidden" name="angkatan" value="<?= $angkatan['nama_angkatan']; ?>">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             <button type="Submit" name="simpan" class="btn btn-primary">Simpan</button>
             </form>

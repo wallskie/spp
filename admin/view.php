@@ -45,10 +45,10 @@ if (isset($_POST['id_siswa'])) {
 
 
     <!-- Input untuk menampilkan nisn -->
-    <input type="text" class="form-control mb-2" readonly value="<?= $res['nisn'] ?>" disabled>
-    <input type="text" class="form-control mb-2" readonly value="<?= $res['nama_angkatan'] ?>" disabled>
-    <input type="text" class="form-control mb-2" readonly name="" value="<?= $res['nama_kelas'] ?>" disabled>
-    <input type="text" class="form-control mb-2" readonly name="" value="<?= $res['nama_jurusan'] ?>" disabled>
+    <input type="text" class="form-control mb-2" readonly value="<?= $res['nisn'] ?>" require>
+    <input type="text" class="form-control mb-2" readonly value="<?= $res['nama_angkatan'] ?>" require>
+    <input type="text" class="form-control mb-2" readonly name="" value="<?= $res['nama_kelas'] ?>" require>
+    <input type="text" class="form-control mb-2" readonly name="" value="<?= $res['nama_jurusan'] ?>" require>
     <input type="text" class="form-control mb-2" required name="nama" value="<?= $res['nama'] ?>">
     <input type="text" class="form-control mb-2" required name="ttl" value="<?= $res['ttl'] ?>">
     <SELECT class="form-control mb-2" name="jenis_kelamin">
